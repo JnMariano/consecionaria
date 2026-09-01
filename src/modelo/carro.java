@@ -14,6 +14,6 @@ public class carro {
         }      
     @Override
     public String toString() {
-        return marca + " " + modelo + " (" + ano + ") - R$" + preco;
+        return "Marca: " + marca +  " | " +  "Modelo: " + modelo + " | (" + ano + ") | - R$" + preco;
     }
 }
