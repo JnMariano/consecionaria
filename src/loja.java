@@ -1,6 +1,7 @@
 import deposito.estoque;
 import java.util.*;
 import usuarios.gerente;
+
 public class loja {
     public static void main(String[] args) {
         gerente.teste();
@@ -59,7 +60,9 @@ public class loja {
                     break;
                 case 2:
                     System.out.println("Digite sua duvida e assim que possivel um vendendor entrar em contato!");
-                    int reclamar= input.nextInt();
+                    String reclamar= input.next();
+                    System.out.println("Sua reclamacao e: " + reclamar);
+
 
                     break;
                 case 3:

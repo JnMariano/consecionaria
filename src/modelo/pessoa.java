@@ -1,10 +1,10 @@
 package modelo;
 
 public class pessoa {
-    public String nome;
-    public String cpf;
-    public String cargo;
-    public int idade;
+    private String nome;
+    private String cpf;
+    private String cargo;
+    private int idade;
     
     public pessoa(String nome, String cpf, String cargo, int idade){
         this.nome=nome;
@@ -12,6 +12,7 @@ public class pessoa {
         this.cargo=cargo;
         this.idade=idade;
     }
+    
 
 @Override
 public String toString(){
