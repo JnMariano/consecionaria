@@ -1,10 +1,10 @@
 package modelo;
 
 public class pessoa {
-    private String nome;
-    private String cpf;
-    private String cargo;
-    private int idade;
+    public String nome;
+    public String cpf;
+    public String cargo;
+    public int idade;
     
     public pessoa(String nome, String cpf, String cargo, int idade){
         this.nome=nome;
